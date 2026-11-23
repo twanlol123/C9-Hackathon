@@ -1,0 +1,35 @@
+Category 2 (LoL): Macro Scouting & Draft Management System
+What to Build 
+
+Build a competitive League of Legends coaching platform using a JetBrains tool that helps Cloud9’s coaches eliminate spreadsheet chaos and elevate draft preparation.
+
+Before every match, coaches deal with tracking opponent macro strategies, warding tendencies, and massive amounts of pick/ban data. Your task is to build a tool that accelerates this pre-match preparation.
+
+Entrants can follow one of two featured blueprints: an Automated Macro Scouting Tool or a Modular Draft Organizer supporting Fearless Draft rules, or build their own pro-tier coaching or analytics innovation.
+Data & Resources
+
+    Available Data: Official esports data from GRID is available as a resource for this category.
+
+Core Capabilities / What Your Tool Could Include 
+
+Your application could perform the following core functions, powered by Official Esports Data from GRID:
+
+    Draft Tendency Analysis & Recommendations: Analyze historical data (champion pools, patch data, recent game history) to identify opponent pick/ban patterns and recommend optimal C9-specific draft strategies.
+
+    Modular Draft Organizer (Fearless Draft Ready): Build an application that simulates and tracks pick/ban phases and supports current Fearless Draft rules, accounting for shrinking champion pools in Game 3 or Game 5 scenarios.
+
+    Supporting Macro Context: Analyze recent opponent matches to find macro-level patterns (such as jungle pathing tendencies and early-game objective setups) specifically to provide supporting context for draft insights.
+
+How can you take it to the next level?
+
+    Data-Backed "How to Win" Insights: Instead of just listing data, generate intelligent counter-strategies. (e.g., "Opponent X picks Sejuani 70% of the time in Game 1. If we ban Sejuani, their Fearless Draft win-rate in Game 2 drops by 15%. Recommend banning Sejuani early.")
+
+    Live Draft Winrate Impact: Display a real-time, predicted win-rate percentage based on the current draft state, illustrating how different predicted picks/bans might influence the odds as the draft progresses.
+
+What Judges Look For
+
+Your submission must demonstrate how the tool supports Cloud9 draft preparation through draft-tendency analysis, draft organization, or another clearly useful draft capability. Design your tool's methodology to answer real coaching questions such as:
+
+    "What pick/ban tendencies repeat most often for this opponent?"
+
+    "How does the opponent's draft strategy shift in a Fearless Draft Game 3, 4, or 5 scenario?"
